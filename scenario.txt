@@ -1,0 +1,53 @@
+Start inventory: 100 bucks
+
+room1:
+ name: The Entrance to the Dungeon
+ description: This place looks like the mouth of a gigantic beast carved into the rock.
+              The air here is cold and damp, and the silence is broken only by the distant screams echoing through the cavernous depths.
+              At the entrance stands a big guard in leather armour, large and sullen. His eyes glow in the darkness, and he holds a massive axe in his hands.
+              He blocks your path, demanding 300 bucks for passage into the dungeon. You can feel the threat emanating from him, and understand that without payment,
+              you will not be allowed to pass. To the south, beyond the forest, you can see a small camp.
+              In the corner of the entrance, you notice the skeleton of a dead warrior with shield in his hand, a sword still sticking out of its ribcage.
+              A rusty, weathered nameplate reads "Billy Herrington".
+     items: Sword, Shield
+     exits: North - The Dungeon, South - The Camp
+
+ room2:
+    name: The Camp
+    description: The camp is a grim sight. A few dead bandits are scattered around. One of them has 200 bucks sticking out of his pocket.
+     A troll that attacked the camp stands nearby, but it doesn't seem to notice you.
+    items: 200 bucks
+    exits: North - The Entrance to the Dungeon
+
+ room3:
+    name: First level of the Dungeon
+ description: The dungeon is dark and damp. The walls are covered in moss, and the air is thick with the smell of decay.
+     Three torches flicker in the gloom, casting long, dancing shadows. One torch marks the entrance to the east, another to the west, their light barely piercing the blackness beyond.
+      The third torch burns near a wall, its flame illuminating an oddity in the stonework.
+       On the wall, you see an inscription in an ancient language: "He who seeks to survive must first seek the light. Take it, and a new path will reveal itself. For those who accepted the light, the road to the west."
+
+    items: Torch from east entrance, Torch from west entrance, Torch from north entrance
+    exits: East - The Hall of the Dead, West - The Hall of the Living, North - The Hall of the Undead, South - The Entrance to the Dungeon
+
+ room4:
+    name: The Hall of the Living
+        description: The hall is filled with an eerie silence, broken only by the occasional drip of water from the ceiling. In the center of the room,
+        illuminated by a single shaft of light from above, sits an old warrior. His armor is worn and battered, and his eyes hold the weight of countless battles.
+        He tells you a tale of a legendary hero, Billy Herrington, who was once the master of this dungeon.
+         The hero, he says, donned the leather armor found in The Hall of the Dead. The old warrior then teaches you a spell, a battle cry to be exact. He instructs you to stick your fingers and shout the cry. This, he assures you, will give you the strength to defeat the monster.
+    exits:  West - The First level of the Dungeon
+    items: Battle Cry
+
+room5:
+    name: The Hall of the Dead
+    description: The hall is filled with the stench of death. The walls are lined with the bones of fallen warriors, their armor rusted and broken.
+     In the center of the room, you see a suit of leather armor, its surface marred by countless battles. The armor seems to call out to you, whispering of the power it holds.
+     The armor is old and battered, but you can sense the strength within it.
+      items: Leather Armor
+      exits: East - The First level of the Dungeon
+
+room6:
+    name: The Hall of the Undead
+        description: This hall, once a place of honor and respect, now stands as a shadow of its former glory.
+         The grandeur of the past can still be seen in the faded tapestries hanging on the walls, the ornate, albeit worn-out, furniture scattered around the room, and the remnants of intricate murals depicting ancient battles.
+          In the center of the hall stands a large, black, muscular warrior. In his hand, he holds a mighty weapon, a bone sword engraved with the word "bone". His  leather armor, adorned with intricate silver designs, covers only a small part of his body, revealing his intimidating physique. His eyes, burning with a fierce determination, are fixed on you. Seeing you in the armor of the ancient hero, the warrior's eyes flash with a challenge. It's clear that he won't let you leave without a fight. The air in the room grows heavy with anticipation, the silence only broken by the warrior's steady breathing and the distant echo of your own heartbeat.
